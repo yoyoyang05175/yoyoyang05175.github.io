@@ -148,6 +148,7 @@
 }
 .div-11:hover{
     background-color:#2f4e48;
+    cursor: pointer;
 }
 .div-12 {
   box-shadow: 0px 0px 0px 1.125px #e5e0df,
@@ -1383,6 +1384,11 @@
   margin: 4px 0 0 16px;
   padding: 9px;
   font: 300 18px/29px Kanit, sans-serif;
+  transition: .5s;
+}
+.div-104:hover{
+  background-color: #2c3249;
+  cursor: pointer;
 }
 @media (max-width: 991px) {
   .div-104 {
